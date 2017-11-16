@@ -8,6 +8,4 @@
 
 #import "NotificationNames.h"
 
-@implementation NotificationNames
-
-@end
+NSString * const LoginNotification = @"LoginNotification";

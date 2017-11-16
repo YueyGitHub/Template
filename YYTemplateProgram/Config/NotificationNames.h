@@ -6,9 +6,8 @@
 //  Copyright © 2017年 MoMo. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface NotificationNames : NSObject
+// 通知名称定义
 
-@end
+UIKIT_EXTERN NSString * const LoginNotification;

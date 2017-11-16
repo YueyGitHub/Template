@@ -11,6 +11,10 @@
 		7320F0CF1FBC295E00C34BAD /* YYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320F0CE1FBC295E00C34BAD /* YYTabBarController.m */; };
 		7320F0D21FBC298400C34BAD /* YYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320F0D11FBC298400C34BAD /* YYTabBar.m */; };
 		7320F0D61FBC2FA600C34BAD /* YYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320F0D51FBC2FA600C34BAD /* YYHomeViewController.m */; };
+		7320F0E11FBD3FAF00C34BAD /* YYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320F0E01FBD3FAF00C34BAD /* YYMineViewController.m */; };
+		7320F0EB1FBD453300C34BAD /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320F0E51FBD453300C34BAD /* NSObject+Runtime.m */; };
+		7320F0EC1FBD453300C34BAD /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320F0E81FBD453300C34BAD /* UIView+CornerRadius.m */; };
+		7320F0ED1FBD453300C34BAD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320F0EA1FBD453300C34BAD /* UIView+Frame.m */; };
 		7357AB881FBC1D4C00CC7994 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7357AB871FBC1D4C00CC7994 /* AppDelegate.m */; };
 		7357AB8B1FBC1D4C00CC7994 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7357AB8A1FBC1D4C00CC7994 /* ViewController.m */; };
 		7357AB901FBC1D4C00CC7994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7357AB8F1FBC1D4C00CC7994 /* Assets.xcassets */; };
@@ -21,6 +25,7 @@
 		7357ABC11FBC207100CC7994 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7357ABC01FBC207100CC7994 /* BaseViewController.m */; };
 		7357ABC41FBC209300CC7994 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7357ABC31FBC209300CC7994 /* BaseModel.m */; };
 		7357ABCA1FBC21D700CC7994 /* NotificationNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 7357ABC91FBC21D700CC7994 /* NotificationNames.m */; };
+		AD0C9B01653367B861BB8400 /* libPods-YYTemplateProgram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DCFFA70A6A5048AEE1B17F /* libPods-YYTemplateProgram.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F184E667C607AA953F26CCA /* Pods-YYTemplateProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYTemplateProgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYTemplateProgram/Pods-YYTemplateProgram.release.xcconfig"; sourceTree = "<group>"; };
 		7320F0CA1FBC294800C34BAD /* YYNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYNavigationController.h; sourceTree = "<group>"; };
 		7320F0CB1FBC294800C34BAD /* YYNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYNavigationController.m; sourceTree = "<group>"; };
 		7320F0CD1FBC295E00C34BAD /* YYTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTabBarController.h; sourceTree = "<group>"; };
@@ -49,6 +55,15 @@
 		7320F0D11FBC298400C34BAD /* YYTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTabBar.m; sourceTree = "<group>"; };
 		7320F0D41FBC2FA600C34BAD /* YYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYHomeViewController.h; sourceTree = "<group>"; };
 		7320F0D51FBC2FA600C34BAD /* YYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYHomeViewController.m; sourceTree = "<group>"; };
+		7320F0DF1FBD3FAF00C34BAD /* YYMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYMineViewController.h; sourceTree = "<group>"; };
+		7320F0E01FBD3FAF00C34BAD /* YYMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYMineViewController.m; sourceTree = "<group>"; };
+		7320F0E21FBD430A00C34BAD /* YYTemplateProgram.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTemplateProgram.pch; sourceTree = "<group>"; };
+		7320F0E41FBD453300C34BAD /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		7320F0E51FBD453300C34BAD /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
+		7320F0E71FBD453300C34BAD /* UIView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		7320F0E81FBD453300C34BAD /* UIView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		7320F0E91FBD453300C34BAD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		7320F0EA1FBD453300C34BAD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		7357AB831FBC1D4C00CC7994 /* YYTemplateProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYTemplateProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7357AB861FBC1D4C00CC7994 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7357AB871FBC1D4C00CC7994 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,7 +87,8 @@
 		7357ABC71FBC21AA00CC7994 /* SQL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQL.h; sourceTree = "<group>"; };
 		7357ABC81FBC21D700CC7994 /* NotificationNames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationNames.h; sourceTree = "<group>"; };
 		7357ABC91FBC21D700CC7994 /* NotificationNames.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationNames.m; sourceTree = "<group>"; };
-		7357ABCB1FBC222E00CC7994 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CC48BD59C20F62DD655A1D3F /* Pods-YYTemplateProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYTemplateProgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYTemplateProgram/Pods-YYTemplateProgram.debug.xcconfig"; sourceTree = "<group>"; };
+		D7DCFFA70A6A5048AEE1B17F /* libPods-YYTemplateProgram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYTemplateProgram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0C9B01653367B861BB8400 /* libPods-YYTemplateProgram.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +117,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D2718564C559A7757ED6A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7DCFFA70A6A5048AEE1B17F /* libPods-YYTemplateProgram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B47E77112F0ACC871B1A918 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC48BD59C20F62DD655A1D3F /* Pods-YYTemplateProgram.debug.xcconfig */,
+				6F184E667C607AA953F26CCA /* Pods-YYTemplateProgram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7320F0C81FBC28F400C34BAD /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,13 +154,81 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
-		7320F0D31FBC2F9100C34BAD /* home */ = {
+		7320F0D31FBC2F9100C34BAD /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				7320F0D41FBC2FA600C34BAD /* YYHomeViewController.h */,
 				7320F0D51FBC2FA600C34BAD /* YYHomeViewController.m */,
+				7320F0D91FBD3F2C00C34BAD /* ViewModel */,
+				7320F0DB1FBD3F4B00C34BAD /* View */,
 			);
-			path = home;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7320F0D81FBD3DE500C34BAD /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				7320F0DF1FBD3FAF00C34BAD /* YYMineViewController.h */,
+				7320F0E01FBD3FAF00C34BAD /* YYMineViewController.m */,
+				7320F0DD1FBD3F5D00C34BAD /* ViewModel */,
+				7320F0DC1FBD3F5700C34BAD /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		7320F0D91FBD3F2C00C34BAD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7320F0DB1FBD3F4B00C34BAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7320F0DC1FBD3F5700C34BAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7320F0DD1FBD3F5D00C34BAD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7320F0E31FBD453300C34BAD /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				7320F0E41FBD453300C34BAD /* NSObject+Runtime.h */,
+				7320F0E51FBD453300C34BAD /* NSObject+Runtime.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		7320F0E61FBD453300C34BAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7320F0E71FBD453300C34BAD /* UIView+CornerRadius.h */,
+				7320F0E81FBD453300C34BAD /* UIView+CornerRadius.m */,
+				7320F0E91FBD453300C34BAD /* UIView+Frame.h */,
+				7320F0EA1FBD453300C34BAD /* UIView+Frame.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7320F0EE1FBD798900C34BAD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		7357AB7A1FBC1D4B00CC7994 = {
@@ -136,6 +238,8 @@
 				7357AB9E1FBC1D4C00CC7994 /* YYTemplateProgramTests */,
 				7357ABA91FBC1D4C00CC7994 /* YYTemplateProgramUITests */,
 				7357AB841FBC1D4C00CC7994 /* Products */,
+				5B47E77112F0ACC871B1A918 /* Pods */,
+				1D2718564C559A7757ED6A3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +295,8 @@
 		7357ABB81FBC1F0B00CC7994 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7320F0E31FBD453300C34BAD /* NSObject */,
+				7320F0E61FBD453300C34BAD /* View */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -198,11 +304,11 @@
 		7357ABBA1FBC1F4200CC7994 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				7320F0E21FBD430A00C34BAD /* YYTemplateProgram.pch */,
 				7357ABC61FBC213B00CC7994 /* define.h */,
 				7357ABC71FBC21AA00CC7994 /* SQL.h */,
 				7357ABC81FBC21D700CC7994 /* NotificationNames.h */,
 				7357ABC91FBC21D700CC7994 /* NotificationNames.m */,
-				7357ABCB1FBC222E00CC7994 /* PrefixHeader.pch */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -221,7 +327,8 @@
 		7357ABBC1FBC1F8800CC7994 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				7320F0D31FBC2F9100C34BAD /* home */,
+				7320F0D31FBC2F9100C34BAD /* Home */,
+				7320F0D81FBD3DE500C34BAD /* Mine */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -232,6 +339,7 @@
 				7320F0C81FBC28F400C34BAD /* Navigation */,
 				7320F0C91FBC291300C34BAD /* TabBar */,
 				7357ABC51FBC20B700CC7994 /* Model */,
+				7320F0EE1FBD798900C34BAD /* Network */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -257,9 +365,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7357ABAF1FBC1D4C00CC7994 /* Build configuration list for PBXNativeTarget "YYTemplateProgram" */;
 			buildPhases = (
+				DA6B3372F6C17D026CF75C22 /* [CP] Check Pods Manifest.lock */,
 				7357AB7F1FBC1D4C00CC7994 /* Sources */,
 				7357AB801FBC1D4C00CC7994 /* Frameworks */,
 				7357AB811FBC1D4C00CC7994 /* Resources */,
+				05851E81A76564450748D211 /* [CP] Embed Pods Frameworks */,
+				7C94D4EA52E5BF99B1730244 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -378,20 +489,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05851E81A76564450748D211 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYTemplateProgram/Pods-YYTemplateProgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C94D4EA52E5BF99B1730244 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YYTemplateProgram/Pods-YYTemplateProgram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA6B3372F6C17D026CF75C22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYTemplateProgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7357AB7F1FBC1D4C00CC7994 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7357AB8B1FBC1D4C00CC7994 /* ViewController.m in Sources */,
+				7320F0E11FBD3FAF00C34BAD /* YYMineViewController.m in Sources */,
 				7320F0CF1FBC295E00C34BAD /* YYTabBarController.m in Sources */,
 				7357ABCA1FBC21D700CC7994 /* NotificationNames.m in Sources */,
 				7320F0D61FBC2FA600C34BAD /* YYHomeViewController.m in Sources */,
 				7320F0D21FBC298400C34BAD /* YYTabBar.m in Sources */,
 				7357ABC11FBC207100CC7994 /* BaseViewController.m in Sources */,
 				7357AB961FBC1D4C00CC7994 /* main.m in Sources */,
+				7320F0EB1FBD453300C34BAD /* NSObject+Runtime.m in Sources */,
 				7357ABC41FBC209300CC7994 /* BaseModel.m in Sources */,
+				7320F0ED1FBD453300C34BAD /* UIView+Frame.m in Sources */,
 				7357AB881FBC1D4C00CC7994 /* AppDelegate.m in Sources */,
+				7320F0EC1FBD453300C34BAD /* UIView+CornerRadius.m in Sources */,
 				7320F0CC1FBC294800C34BAD /* YYNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,10 +711,12 @@
 		};
 		7357ABB01FBC1D4C00CC7994 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC48BD59C20F62DD655A1D3F /* Pods-YYTemplateProgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TVCP2NCYVZ;
+				GCC_PREFIX_HEADER = YYTemplateProgram/Config/YYTemplateProgram.pch;
 				INFOPLIST_FILE = YYTemplateProgram/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -560,10 +728,12 @@
 		};
 		7357ABB11FBC1D4C00CC7994 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F184E667C607AA953F26CCA /* Pods-YYTemplateProgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TVCP2NCYVZ;
+				GCC_PREFIX_HEADER = YYTemplateProgram/Config/YYTemplateProgram.pch;
 				INFOPLIST_FILE = YYTemplateProgram/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

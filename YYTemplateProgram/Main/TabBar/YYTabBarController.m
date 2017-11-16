@@ -8,6 +8,7 @@
 
 #import "YYTabBarController.h"
 #import "YYHomeViewController.h"
+#import "YYMineViewController.h"
 
 @interface YYTabBarController ()
 
@@ -25,10 +26,10 @@
 - (void)setupChildVC {
     
     YYHomeViewController *vc1 = [[YYHomeViewController alloc] init];
-    [self setupChildrenController:vc1 image:@"tabbar_1" selectedImage:@"tabbar_1" title:@"首页"];
+    [self setupChildrenController:vc1 image:@"home_home_tab" selectedImage:@"home_home_tab_s" title:@"首页"];
 
-    YYHomeViewController *vc2 = [[YYHomeViewController alloc] init];
-    [self setupChildrenController:vc2 image:@"tabbar_2" selectedImage:@"tabbar_2" title:@"商店"];
+    YYMineViewController *vc2 = [[YYMineViewController alloc] init];
+    [self setupChildrenController:vc2 image:@"home_mine_tab" selectedImage:@"home_mine_tab_s" title:@"我的"];
 //
 //    ViewController *vc3 = [[ViewController alloc] init];
 //    [self setupChildrenController:vc3 image:@"tabbar_3" selectedImage:@"tabbar_3" title:@"发现"];
@@ -51,6 +52,8 @@
     vc.tabBarItem.image = tabImage;
     
     vc.tabBarItem.selectedImage = tabSelectedImage;
+    
+    vc.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
     
     //    vc.tabBarItem.title = title;
     

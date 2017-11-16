@@ -6,8 +6,9 @@
 //  Copyright © 2017年 MoMo. All rights reserved.
 //
 
-#ifndef SQL_h
-#define SQL_h
 
+#import <Foundation/Foundation.h>
 
-#endif /* SQL_h */
+// 项目中执行的SQL
+
+static NSString * const createTableSQL = @"";
